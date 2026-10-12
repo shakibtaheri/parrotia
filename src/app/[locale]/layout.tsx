@@ -1,10 +1,16 @@
 import type { Metadata } from "next";
-import { Inter, Vazirmatn } from "next/font/google";
+import { Fraunces, Inter, Vazirmatn } from "next/font/google";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
-import { setRequestLocale } from "next-intl/server";
+// import { setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
+import { ThemeProvider } from "next-themes";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
+
+const fraunces = Fraunces({
+  subsets: ["latin"],
+  variable: "--font-fraunces",
+});
 
 const inter = Inter({
   subsets: ["latin"],
@@ -38,16 +44,19 @@ export default async function LocaleLayout({
     notFound();
   }
 
-  setRequestLocale(locale);
+  // setRequestLocale(locale);
 
   return (
     <html
       lang={locale}
       dir={locale === "fa" ? "rtl" : "ltr"}
-      className={`${inter.variable} ${vazirmatn.variable} h-full antialiased`}
+      suppressHydrationWarning
+      className={`${fraunces.variable} ${inter.variable} ${vazirmatn.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col">
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        </ThemeProvider>
       </body>
     </html>
   );
