@@ -7,5 +7,14 @@
     "title": "Page not found",
     "description": "Sorry, we couldn't find the page you're looking for.",
     "home": "Go home"
+  },
+  "tokensTest": {
+    "title": "Design Tokens Test",
+    "description": "Verify color tokens, typography, and dark mode across locales.",
+    "fontDemo": "Font Demonstration",
+    "headingSample": "Fraunces Heading — Forest Green",
+    "bodySample": "This is body text set in Inter (English) or Vazirmatn (Persian). The color uses the ink token for optimal contrast against the cream background.",
+    "bodySample2": "Muted text uses the muted token for secondary information that should be readable but not prominent.",
+    "colorTokens": "Color Tokens"
   }
 }
