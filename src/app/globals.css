@@ -24,7 +24,7 @@
   --muted: #adb9b1;
   --line: #35463c;
   --soft-green: #263e30;
-  --header: rgba(20, 32, 26, 0.92);
+  --forest: #b5452b;
 }
 
 html[lang="fa"] {
@@ -42,21 +42,36 @@ html[lang="fa"] {
   --color-line: var(--line);
   --color-crimson: var(--crimson);
   --color-soft-green: var(--soft-green);
-  --color-header: var(--header);
   --font-sans: var(--font-body);
   --font-serif: var(--font-heading);
 }
 
 @layer base {
-  html { scroll-behavior: smooth; scroll-padding-top: 8rem; }
-  @media (min-width: 48rem) { html { scroll-padding-top: 9rem; } }
-  body { background: var(--cream); color: var(--ink); font-family: var(--font-body); }
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 8rem;
+  }
+  @media (min-width: 48rem) {
+    html {
+      scroll-padding-top: 9rem;
+    }
+  }
+  body {
+    background: var(--cream);
+    color: var(--ink);
+    font-family: var(--font-body);
+  }
   :focus-visible {
-    outline: 3px solid color-mix(in srgb, var(--crimson), transparent 35%);
+    outline: 3px solid color-mix(in srgb, var(--ink), transparent 35%);
     outline-offset: 3px;
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; }
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition: none !important;
+  }
 }

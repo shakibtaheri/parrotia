@@ -1,10 +1,18 @@
 import type { Metadata } from "next";
 import { Fraunces, Inter, Vazirmatn } from "next/font/google";
+
 import { hasLocale, NextIntlClientProvider } from "next-intl";
-// import { setRequestLocale } from "next-intl/server";
-import { notFound } from "next/navigation";
-import { ThemeProvider } from "next-themes";
+import { getLocale, getTranslations } from "next-intl/server";
+
 import { routing } from "@/i18n/routing";
+
+import { notFound } from "next/navigation";
+
+import { ThemeProvider } from "next-themes";
+
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+
 import "../globals.css";
 
 const fraunces = Fraunces({
@@ -33,18 +41,17 @@ export function generateStaticParams() {
 
 export default async function LocaleLayout({
   children,
-  params,
 }: {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
 }) {
-  const { locale } = await params;
+  const locale = await getLocale();
 
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
 
-  // setRequestLocale(locale);
+  const t = await getTranslations("Header");
 
   return (
     <html
@@ -53,9 +60,15 @@ export default async function LocaleLayout({
       suppressHydrationWarning
       className={`${fraunces.variable} ${inter.variable} ${vazirmatn.variable} h-full antialiased`}
     >
-      <body className="flex min-h-full flex-col">
+      <body className="flex min-h-screen flex-col">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <NextIntlClientProvider>{children}</NextIntlClientProvider>
+          <NextIntlClientProvider>
+            <Header />
+            <main id="main" className="flex-1" tabIndex={-1}>
+              {children}
+            </main>
+            <Footer />
+          </NextIntlClientProvider>
         </ThemeProvider>
       </body>
     </html>
