@@ -2,7 +2,7 @@
   "slug": "powdery-mildew",
   "code": "PM-01",
   "status": "published",
-  "name": { "en": "Powdery Mildew" },
+  "name": { "en": "Powdery Mildew", "fa": "سفیدک پودری" },
   "pathogenType": "fungus",
   "pathogenName": "Erysiphales",
   "summary": {

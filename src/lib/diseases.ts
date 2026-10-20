@@ -4,11 +4,11 @@ import powderyMildew from "@/data/diseases/fungus/powdery-mildow.json";
 const diseases = [powderyMildew] as Disease[];
 
 export function getAllDiseases(): Disease[] {
-  return diseases.filter((d) => d.status === "published");
+  return diseases.filter((disease) => disease.status === "published");
 }
 
 export function getDiseaseBySlug(slug: string): Disease | undefined {
-  return getAllDiseases().find((d) => d.slug === slug);
+  return getAllDiseases().find((disease) => disease.slug === slug);
 }
 
 // Only returns related diseases that actually exist, so there are no broken links.
