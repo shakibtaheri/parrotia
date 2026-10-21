@@ -20,7 +20,7 @@ export default async function DiseaseHero({
   });
 
   return (
-    <header className="mt-8 space-y-4 md:space-y-6">
+    <header className="space-y-4 md:space-y-6">
       <div className="flex items-center gap-2">
         <span
           className="size-1.5 shrink-0 rounded-full bg-forest"

@@ -29,7 +29,9 @@ export default async function DiseaseDetailPage({
   return (
     <Container className="py-12 md:py-16">
       <Breadcrumb currentLabel={slug} />
-      <DiseaseHero disease={disease} locale={locale as Locale} />
+      <div className="mt-8">
+        <DiseaseHero disease={disease} locale={locale as Locale} />
+      </div>
     </Container>
   );
 }
