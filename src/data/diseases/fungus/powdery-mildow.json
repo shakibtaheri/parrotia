@@ -1,0 +1,147 @@
+{
+  "slug": "powdery-mildew",
+  "code": "PM-01",
+  "status": "published",
+  "name": { "en": "Powdery Mildew", "fa": "سفیدک پودری" },
+  "pathogenType": "fungus",
+  "pathogenName": "Erysiphales",
+  "summary": {
+    "en": "A common fungal disease recognized by its white, powder-like growth on leaves and stems. It rarely kills mature plants, but can weaken growth and reduce flowering or yield."
+  },
+  "severity": "moderate",
+  "hosts": { "en": ["Rose", "Squash", "Grape", "Lilac", "Phlox"] },
+  "plantParts": ["leaves", "stems", "buds", "fruit"],
+  "favorableConditions": { "en": "Warm, dry days with humid nights" },
+  "heroImage": {
+    "src": "/images/diseases/powdery-mildew-hero.jpg",
+    "alt": {
+      "en": "White powdery fungal growth on the surface of a green leaf"
+    },
+    "caption": { "en": "Powdery growth on leaf tissue" },
+    "author": "REPLACE_WITH_PHOTOGRAPHER",
+    "license": "Unsplash License",
+    "sourceUrl": "https://unsplash.com/photos/REPLACE_ME"
+  },
+  "identification": {
+    "lead": {
+      "en": "Look for circular patches of pale, flour-like growth, usually beginning on the upper surface of older leaves."
+    },
+    "body": {
+      "en": "As infection progresses, patches may merge until much of the leaf is covered. Affected leaves can yellow, curl, become distorted, and drop early. Young shoots, buds, flowers, and fruit may also develop the characteristic white coating."
+    },
+    "diagnosticNote": {
+      "en": "Unlike most fungal diseases, powdery mildew does not require free water on the leaf to infect. Its surface growth can often be gently rubbed away with a finger."
+    },
+    "image": {
+      "src": "/images/diseases/powdery-mildew-early.jpg",
+      "alt": { "en": "White spotting on a green leaf" },
+      "caption": { "en": "Early colonies appear as separate white patches." },
+      "author": "REPLACE_WITH_PHOTOGRAPHER",
+      "license": "Unsplash License",
+      "sourceUrl": "https://unsplash.com/photos/REPLACE_ME"
+    },
+    "keySigns": {
+      "en": [
+        "White or gray powder on leaf surfaces",
+        "Distorted or curled young leaves",
+        "Premature yellowing and leaf drop",
+        "Reduced flowering and fruit quality"
+      ]
+    }
+  },
+  "cycle": {
+    "lead": {
+      "en": "Powdery mildew fungi survive on living plants or as dormant structures in plant debris, then release spores when conditions become favorable."
+    },
+    "steps": [
+      {
+        "title": { "en": "Overwinter" },
+        "text": { "en": "Dormant structures or infected buds" }
+      },
+      {
+        "title": { "en": "Disperse" },
+        "text": { "en": "Airborne spores travel on wind" }
+      },
+      {
+        "title": { "en": "Infect" },
+        "text": { "en": "Spores germinate on dry leaf surfaces" }
+      },
+      {
+        "title": { "en": "Repeat" },
+        "text": { "en": "New colonies produce more spores" }
+      }
+    ],
+    "body": {
+      "en": "Warm days, cool nights, high humidity, and crowded canopies favor rapid development. Rain can actually slow some powdery mildews by washing spores from leaves."
+    }
+  },
+  "management": {
+    "lead": {
+      "en": "Combine prevention, careful monitoring, and targeted treatment. Begin with cultural controls and intervene early."
+    },
+    "cultural": {
+      "intro": {
+        "en": "Start here. Good growing conditions reduce disease pressure and are the foundation of effective management."
+      },
+      "items": {
+        "en": [
+          "Space plants for airflow and prune dense interior growth.",
+          "Place susceptible plants in adequate sun; avoid excessive shade.",
+          "Remove heavily infected leaves and dispose of them away from the garden.",
+          "Avoid excess nitrogen, which promotes soft, susceptible growth."
+        ]
+      }
+    },
+    "biological": {
+      "intro": {
+        "en": "Biological products can suppress early infections, but perform best when applied preventively and consistently."
+      },
+      "items": {
+        "en": [
+          "Products containing Bacillus subtilis or Bacillus amyloliquefaciens may help protect new growth.",
+          "Apply before symptoms become widespread and repeat according to the product label.",
+          "Do not combine living microbial products with incompatible fungicides."
+        ]
+      }
+    },
+    "chemical": {
+      "intro": {
+        "en": "Fungicides protect healthy tissue; they rarely restore leaves that are already heavily colonized."
+      },
+      "items": {
+        "en": [
+          "Horticultural oils, sulfur, and potassium bicarbonate are common low-impact options.",
+          "Rotate active ingredients by FRAC group to reduce resistance risk.",
+          "Always follow the label, observe temperature restrictions, and confirm the crop is listed."
+        ]
+      }
+    },
+    "warning": {
+      "title": { "en": "Use pesticides responsibly" },
+      "text": {
+        "en": "The label is the law. Confirm that both the plant and disease are listed, and never apply oil or sulfur to heat-stressed plants."
+      }
+    }
+  },
+  "relatedSlugs": ["downy-mildew", "gray-mold", "leaf-spot"],
+  "sources": [
+    {
+      "title": "Compendium of Plant Disease and Pest Management",
+      "publisher": "American Phytopathological Society",
+      "url": "https://www.apsnet.org"
+    },
+    {
+      "title": "Powdery Mildew on Ornamentals",
+      "publisher": "University of California IPM",
+      "url": "https://ipm.ucanr.edu",
+      "year": 2023
+    },
+    {
+      "title": "Powdery mildews: biology and management",
+      "publisher": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk"
+    }
+  ],
+  "author": { "name": "YOUR NAME", "credentials": "MSc Plant Pathology" },
+  "updatedAt": "2026-10-18"
+}

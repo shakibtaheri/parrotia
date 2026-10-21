@@ -38,6 +38,10 @@
     "title": "پاروشیا",
     "switch": "English"
   },
+  "DiseasesPage": {
+    "title": "بیماری‌ها"
+  },
+
   "NotFound": {
     "title": "صفحه یافت نشد",
     "description": "متأسفانه، صفحه مورد نظر شما یافت نشد.",

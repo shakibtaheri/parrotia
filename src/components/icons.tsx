@@ -22,8 +22,8 @@ export function LeafMark(props: SVGProps<SVGSVGElement>) {
       <path
         d="M7.4 44.4c6.4-13.2 15.2-22 25.4-29.2M14.2 32.2c1.8-1.2 6.5-.7 9-.2M20.7 24.7c.8-2.2.4-5.9-.5-7.9"
         stroke="var(--cream)"
-        stroke-width="1.35"
-        stroke-linecap="round"
+        strokeWidth="1.35"
+        strokeLinecap="round"
       />
     </svg>
   );
