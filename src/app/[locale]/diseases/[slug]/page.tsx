@@ -1,9 +1,12 @@
 import { notFound } from "next/navigation";
 import { hasLocale } from "next-intl";
 
+import Breadcrumb from "@/components/disease/Breadcrumb";
+import DiseaseHero from "@/components/disease/DiseaseHero";
+import Container from "@/components/Container";
 import { routing } from "@/i18n/routing";
 import { getAllDiseases, getDiseaseBySlug } from "@/lib/diseases";
-import { pick } from "@/lib/localize";
+import type { Locale } from "@/lib/types";
 
 export function generateStaticParams() {
   return routing.locales.flatMap((locale) =>
@@ -23,6 +26,10 @@ export default async function DiseaseDetailPage({
   const disease = getDiseaseBySlug(slug);
   if (!disease) notFound();
 
-  // console.log("locale:", locale, "slug:", slug, "routing:", routing);
-  return <h1>{pick(disease.name, locale)}</h1>;
+  return (
+    <Container className="py-12 md:py-16">
+      <Breadcrumb currentLabel={slug} />
+      <DiseaseHero disease={disease} locale={locale as Locale} />
+    </Container>
+  );
 }

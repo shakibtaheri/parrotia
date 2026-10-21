@@ -51,7 +51,7 @@ export default async function LocaleLayout({
     notFound();
   }
 
-  const t = await getTranslations("Header");
+  // const t = await getTranslations("Header");
 
   return (
     <html
