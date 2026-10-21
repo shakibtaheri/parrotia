@@ -46,5 +46,23 @@
     "title": "صفحه یافت نشد",
     "description": "متأسفانه، صفحه مورد نظر شما یافت نشد.",
     "home": "بازگشت به خانه"
+  },
+  "DiseaseDetail": {
+    "breadcrumbLabel": "مسیر صفحه",
+    "home": "خانه",
+    "diseases": "بیماری‌ها",
+    "pathogenType": {
+      "fungus": "بیماری قارچی",
+      "oomycete": "بیماری اوومیستی",
+      "bacterium": "بیماری باکتریایی",
+      "virus": "بیماری ویروسی",
+      "nematode": "بیماری نماتدی",
+      "insect": "آفت حشره‌ای",
+      "mite": "آفت کنه‌ای",
+      "abiotic": "اختلال غیرزیستی"
+    },
+    "causedBy": "عامل بیماری: <em>{name}</em>",
+    "writtenBy": "نوشته‌شده توسط {name}، {credentials}",
+    "updated": "آخرین به‌روزرسانی: {date}"
   }
 }

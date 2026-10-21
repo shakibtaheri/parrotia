@@ -46,5 +46,23 @@
     "title": "Page not found",
     "description": "Sorry, we couldn't find the page you're looking for.",
     "home": "Go home"
+  },
+  "DiseaseDetail": {
+    "breadcrumbLabel": "Breadcrumb",
+    "home": "Home",
+    "diseases": "Diseases",
+    "pathogenType": {
+      "fungus": "Fungal disease",
+      "oomycete": "Oomycete disease",
+      "bacterium": "Bacterial disease",
+      "virus": "Viral disease",
+      "nematode": "Nematode disease",
+      "insect": "Insect pest",
+      "mite": "Mite pest",
+      "abiotic": "Abiotic disorder"
+    },
+    "causedBy": "Caused by <em>{name}</em>",
+    "writtenBy": "Written by {name}, {credentials}",
+    "updated": "Last updated {date}"
   }
 }
