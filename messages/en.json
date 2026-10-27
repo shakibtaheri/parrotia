@@ -63,6 +63,7 @@
     },
     "causedBy": "Caused by <em>{name}</em>",
     "writtenBy": "Written by {name}, {credentials}",
-    "updated": "Last updated {date}"
+    "updated": "Last updated {date}",
+    "photoCredit": "Photo: {author} ({license})"
   }
 }

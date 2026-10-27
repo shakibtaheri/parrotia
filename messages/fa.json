@@ -63,6 +63,7 @@
     },
     "causedBy": "عامل بیماری: <em>{name}</em>",
     "writtenBy": "نوشته‌شده توسط {name}، {credentials}",
-    "updated": "آخرین به‌روزرسانی: {date}"
+    "updated": "آخرین به‌روزرسانی: {date}",
+    "photoCredit": "عکس: {author} ({license})"
   }
 }

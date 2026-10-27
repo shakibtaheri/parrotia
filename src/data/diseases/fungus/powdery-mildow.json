@@ -13,12 +13,12 @@
   "plantParts": ["leaves", "stems", "buds", "fruit"],
   "favorableConditions": { "en": "Warm, dry days with humid nights" },
   "heroImage": {
-    "src": "/images/diseases/powdery-mildew-hero.jpg",
+    "src": "/images/fungus/Powdery-Mildew.jpg",
     "alt": {
       "en": "White powdery fungal growth on the surface of a green leaf"
     },
     "caption": { "en": "Powdery growth on leaf tissue" },
-    "author": "REPLACE_WITH_PHOTOGRAPHER",
+    "author": "https://gardenerspath.com",
     "license": "Unsplash License",
     "sourceUrl": "https://unsplash.com/photos/REPLACE_ME"
   },
@@ -33,7 +33,7 @@
       "en": "Unlike most fungal diseases, powdery mildew does not require free water on the leaf to infect. Its surface growth can often be gently rubbed away with a finger."
     },
     "image": {
-      "src": "/images/diseases/powdery-mildew-early.jpg",
+      "src": "/images/fungus/Powdery-Mildew.jpg",
       "alt": { "en": "White spotting on a green leaf" },
       "caption": { "en": "Early colonies appear as separate white patches." },
       "author": "REPLACE_WITH_PHOTOGRAPHER",
