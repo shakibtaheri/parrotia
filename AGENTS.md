@@ -25,6 +25,8 @@ Next.js (App Router), TypeScript, Tailwind CSS, next-intl, Fuse.js. Content live
 - Icons with direction (arrows, chevrons) must flip in RTL.
 - Keep components small and reusable, one component per file in `src/components/`.
 - Use `next/image` for images and `next/link` for links.
+- Start every component as a server component.
+- Add "use client" only when you need state, effects, event handlers, or browser-only hooks, and push it down to the smallest component that needs it.
 
 ## Internationalization
 
