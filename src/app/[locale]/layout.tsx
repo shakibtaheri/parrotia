@@ -51,11 +51,6 @@ export default async function LocaleLayout({
     notFound();
   }
 
-<<<<<<< Updated upstream
-  const t = await getTranslations("Header");
-
-=======
->>>>>>> Stashed changes
   return (
     <html
       lang={locale}
