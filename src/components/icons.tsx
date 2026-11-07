@@ -6,7 +6,6 @@ export function LeafMark(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       viewBox="0 0 42 48"
-      // viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
       strokeWidth="0.5"
@@ -22,8 +21,8 @@ export function LeafMark(props: SVGProps<SVGSVGElement>) {
       <path
         d="M7.4 44.4c6.4-13.2 15.2-22 25.4-29.2M14.2 32.2c1.8-1.2 6.5-.7 9-.2M20.7 24.7c.8-2.2.4-5.9-.5-7.9"
         stroke="var(--cream)"
-        stroke-width="1.35"
-        stroke-linecap="round"
+        strokeWidth="1.35"
+        strokeLinecap="round"
       />
     </svg>
   );
@@ -64,7 +63,10 @@ export function SunIcon(props: SVGProps<SVGSVGElement>) {
   );
 }
 
-export function ArrowIcon(props: SVGProps<SVGSVGElement>) {
+export function ArrowIcon({
+  className = "",
+  ...props
+}: SVGProps<SVGSVGElement>) {
   return (
     <svg
       viewBox="0 0 24 24"
@@ -74,7 +76,7 @@ export function ArrowIcon(props: SVGProps<SVGSVGElement>) {
       strokeLinecap="round"
       strokeLinejoin="round"
       aria-hidden="true"
-      className="rtl:-scale-x-100"
+      className={`rtl:-scale-x-100 ${className}`}
       {...props}
     >
       <path d="M5 12h14M12 5l7 7-7 7" />
@@ -82,7 +84,10 @@ export function ArrowIcon(props: SVGProps<SVGSVGElement>) {
   );
 }
 
-export function ChevronIcon(props: SVGProps<SVGSVGElement>) {
+export function ChevronIcon({
+  className = "",
+  ...props
+}: SVGProps<SVGSVGElement>) {
   return (
     <svg
       viewBox="0 0 24 24"
@@ -92,7 +97,7 @@ export function ChevronIcon(props: SVGProps<SVGSVGElement>) {
       strokeLinecap="round"
       strokeLinejoin="round"
       aria-hidden="true"
-      className="rtl:-scale-x-100"
+      className={`rtl:-scale-x-100 ${className}`}
       {...props}
     >
       <path d="M9 18l6-6-6-6" />
