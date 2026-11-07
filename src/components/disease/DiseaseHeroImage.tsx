@@ -38,7 +38,7 @@ export default async function DiseaseHeroImage({
         >
           {t("photoCredit", {
             author: image.author,
-            // license: image.license,
+            license: image.license,
           })}
         </a>
       </figcaption>
