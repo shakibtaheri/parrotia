@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Fraunces, Inter, Vazirmatn } from "next/font/google";
 
 import { hasLocale, NextIntlClientProvider } from "next-intl";
-import { getLocale, getTranslations } from "next-intl/server";
+import { getLocale } from "next-intl/server";
 
 import { routing } from "@/i18n/routing";
 
@@ -51,8 +51,11 @@ export default async function LocaleLayout({
     notFound();
   }
 
+<<<<<<< Updated upstream
   const t = await getTranslations("Header");
 
+=======
+>>>>>>> Stashed changes
   return (
     <html
       lang={locale}
