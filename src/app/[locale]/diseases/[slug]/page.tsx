@@ -5,6 +5,7 @@ import Container from "@/components/Container";
 import Breadcrumb from "@/components/disease/Breadcrumb";
 import DiseaseHero from "@/components/disease/DiseaseHero";
 import DiseaseHeroImage from "@/components/disease/DiseaseHeroImage";
+import DiseaseStickyNav from "@/components/disease/DiseaseStickyNav";
 
 import { routing } from "@/i18n/routing";
 import { getAllDiseases, getDiseaseBySlug } from "@/lib/diseases";
@@ -30,12 +31,20 @@ export default async function DiseaseDetailPage({
 
   console.log(disease);
   return (
-    <Container className="py-12 md:py-16">
-      <Breadcrumb currentLabel={slug} />
-      <div className="mt-8 grid items-center gap-10 lg:grid-cols-[0.9fr_1.25fr] lg:gap-x-16">
-        <DiseaseHero disease={disease} locale={locale as Locale} />
-        <DiseaseHeroImage image={disease.heroImage} locale={locale as Locale} />
+    <>
+      <Container className="py-12 md:py-16">
+        <Breadcrumb currentLabel={slug} />
+        <div className="mt-8 grid items-center gap-10 lg:grid-cols-[0.9fr_1.25fr] lg:gap-x-16">
+          <DiseaseHero disease={disease} locale={locale as Locale} />
+          <DiseaseHeroImage
+            image={disease.heroImage}
+            locale={locale as Locale}
+          />
+        </div>
+      </Container>
+      <div>
+        <DiseaseStickyNav />
       </div>
-    </Container>
+    </>
   );
 }

@@ -65,5 +65,13 @@
     "writtenBy": "Written by {name}, {credentials}",
     "updated": "Last updated {date}",
     "photoCredit": "Photo: {author} ({license})"
+  },
+  "StickyNav": {
+    "heading": "On this page",
+    "identification": "Identification",
+    "diseaseCycle": " Disease cycle",
+    "management": "Management",
+    "relatedDisease": "Related disease",
+    "Source": "Source"
   }
 }
