@@ -29,7 +29,6 @@ export default async function DiseaseDetailPage({
   const disease = getDiseaseBySlug(slug);
   if (!disease) notFound();
 
-  console.log(disease);
   return (
     <>
       <Container className="py-12 md:py-16">
@@ -42,9 +41,8 @@ export default async function DiseaseDetailPage({
           />
         </div>
       </Container>
-      <div>
-        <DiseaseStickyNav />
-      </div>
+
+      <DiseaseStickyNav />
     </>
   );
 }
