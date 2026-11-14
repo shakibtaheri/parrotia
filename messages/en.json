@@ -72,6 +72,8 @@
     "diseaseCycle": " Disease cycle",
     "management": "Management",
     "relatedDisease": "Related disease",
-    "Source": "Source"
+    "Source": "Source",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   }
 }

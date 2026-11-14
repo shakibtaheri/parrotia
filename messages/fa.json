@@ -65,5 +65,15 @@
     "writtenBy": "نوشته‌شده توسط {name}، {credentials}",
     "updated": "آخرین به‌روزرسانی: {date}",
     "photoCredit": "عکس: {author} ({license})"
+  },
+  "StickyNav": {
+    "heading": "در این صفحه",
+    "identification": "تشخیص",
+    "diseaseCycle": "سیکل زندگی بیماری",
+    "management": "کنترل",
+    "relatedDisease": "بیماری های مرتبط",
+    "Source": "منابع",
+    "openMenu": "باز کردن منو",
+    "closeMenu": "بستن منو"
   }
 }
