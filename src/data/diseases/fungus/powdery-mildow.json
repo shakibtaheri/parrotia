@@ -5,15 +5,16 @@
   "name": { "en": "Powdery Mildew", "fa": "سفیدک پودری" },
   "pathogenType": "fungus",
   "pathogenName": "Erysiphales",
+  "pathogenRank": "order",
   "summary": {
-    "en": "A common fungal disease recognized by its white, powder-like growth on leaves and stems. It rarely kills mature plants, but can weaken growth and reduce flowering or yield."
+    "en": "Powdery mildew is a group of fungal diseases caused by obligate biotrophic fungi belonging to the order Erysiphales. These pathogens colonize the surfaces of susceptible plant tissues, producing characteristic white to gray fungal growth composed of mycelium and asexual spores. Infection can affect leaves, stems, buds, flowers, and, in some host–pathogen combinations, fruits, resulting in tissue distortion, premature leaf senescence, reduced plant vigor, and diminished crop quality or yield."
   },
   "severity": "moderate",
   "hosts": { "en": ["Rose", "Squash", "Grape", "Lilac", "Phlox"] },
   "plantParts": ["leaves", "stems", "buds", "fruit"],
   "favorableConditions": { "en": "Warm, dry days with humid nights" },
   "heroImage": {
-    "src": "/images/fungus/Powdery_mildew.jpg",
+    "src": "/images/fungus/powdery_mildew.jpg",
     "alt": {
       "en": "White powdery fungal growth covering a green squash leaf"
     },
@@ -24,16 +25,16 @@
   },
   "identification": {
     "lead": {
-      "en": "Look for circular patches of pale, flour-like growth, usually beginning on the upper surface of older leaves."
+      "en": "Powdery mildew is typically recognized by the development of white to gray, superficial fungal colonies on susceptible plant tissues, particularly leaves and young shoots."
     },
     "body": {
-      "en": "As infection progresses, patches may merge until much of the leaf is covered. Affected leaves can yellow, curl, become distorted, and drop early. Young shoots, buds, flowers, and fruit may also develop the characteristic white coating."
+      "en": "The fungal colonies consist of surface-growing mycelium and chains of asexual spores (conidia), which give infected tissues their characteristic powdery appearance. Depending on the fungal species and host plant, colonies may develop on either or both leaf surfaces. As infection progresses, affected leaves may exhibit chlorosis, curling, deformation, premature senescence, and abscission. Young shoots, buds, flowers, and fruits may also become infected."
     },
     "diagnosticNote": {
-      "en": "Unlike most fungal diseases, powdery mildew does not require free water on the leaf to infect. Its surface growth can often be gently rubbed away with a finger."
+      "en": "Powdery mildew fungi are obligate biotrophs that obtain nutrients from living host cells through specialized feeding structures called haustoria. Unlike many other fungal pathogens, their conidia generally do not require free water on plant surfaces for germination and infection."
     },
     "image": {
-      "src": "/images/fungus/Powdery_mildew.jpg",
+      "src": "/images/fungus/powdery_mildew.jpg",
       "alt": { "en": "White spotting on a green leaf" },
       "caption": { "en": "Early colonies appear as separate white patches." },
       "author": "Dmitry Brant",
@@ -51,28 +52,36 @@
   },
   "cycle": {
     "lead": {
-      "en": "Powdery mildew fungi survive on living plants or as dormant structures in plant debris, then release spores when conditions become favorable."
+      "en": "Powdery mildew fungi survive between growing seasons through different structures, depending on the pathogen species and host plant. Disease development involves spore production, airborne dispersal, host infection, and repeated cycles of secondary sporulation."
     },
     "steps": [
       {
-        "title": { "en": "Overwinter" },
-        "text": { "en": "Dormant structures or infected buds" }
+        "title": { "en": "Survival" },
+        "text": {
+          "en": "Mycelium in dormant buds or sexual resting structures (chasmothecia), depending on the species."
+        }
       },
       {
-        "title": { "en": "Disperse" },
-        "text": { "en": "Airborne spores travel on wind" }
+        "title": { "en": "Primary infection" },
+        "text": {
+          "en": "Ascospores or conidia reach susceptible plant tissues and initiate infection."
+        }
       },
       {
-        "title": { "en": "Infect" },
-        "text": { "en": "Spores germinate on dry leaf surfaces" }
+        "title": { "en": "Colonization" },
+        "text": {
+          "en": "Mycelium develops on the plant surface and forms haustoria within epidermal cells."
+        }
       },
       {
-        "title": { "en": "Repeat" },
-        "text": { "en": "New colonies produce more spores" }
+        "title": { "en": "Secondary spread" },
+        "text": {
+          "en": "Conidia are produced in large numbers and dispersed by air to susceptible tissues."
+        }
       }
     ],
     "body": {
-      "en": "Warm days, cool nights, high humidity, and crowded canopies favor rapid development. Rain can actually slow some powdery mildews by washing spores from leaves."
+      "en": "Repeated production and dispersal of conidia enable multiple infection cycles during the growing season. Moderate temperatures, high relative humidity, and shaded conditions generally favor disease development, although environmental requirements vary among powdery mildew species."
     }
   },
   "management": {
@@ -126,22 +135,38 @@
   "relatedSlugs": ["downy-mildew", "gray-mold", "leaf-spot"],
   "sources": [
     {
-      "title": "Compendium of Plant Disease and Pest Management",
-      "publisher": "American Phytopathological Society",
-      "url": "https://www.apsnet.org"
+      "id": "agrios-2005",
+      "title": "Plant Pathology",
+      "authors": "George N. Agrios",
+      "year": 2005,
+      "edition": "5th",
+      "publisher": "Elsevier Academic Press",
+      "type": "book"
     },
     {
+      "id": "uc-ipm-powdery",
       "title": "Powdery Mildew on Ornamentals",
-      "publisher": "University of California IPM",
-      "url": "https://ipm.ucanr.edu",
-      "year": 2023
+      "authors": "UC Statewide IPM Program",
+      "year": 2026,
+      "publisher": "University of California Agriculture and Natural Resources",
+      "url": "https://ipm.ucanr.edu/home-and-landscape/powdery-mildew-on-ornamentals/",
+      "type": "institutional"
     },
     {
-      "title": "Powdery mildews: biology and management",
-      "publisher": "Royal Horticultural Society",
-      "url": "https://www.rhs.org.uk"
+      "id": "aps-powdery",
+      "title": "Purpose and Background Information",
+      "authors": "American Phytopathological Society",
+      "publisher": "APS Education Center",
+      "url": "https://www.apsnet.org/edcenter/sites/PowderyMildew/Pages/Background.aspx",
+      "type": "institutional"
     }
   ],
-  "author": { "name": "YOUR NAME", "credentials": "MSc Plant Pathology" },
+  "sectionSources": {
+    "summary": ["agrios-2005", "aps-powdery"],
+    "identification": ["agrios-2005", "uc-ipm-powdery"],
+    "cycle": ["agrios-2005", "aps-powdery"],
+    "management": ["uc-ipm-powdery"]
+  },
+  "author": { "name": "Shakib Taheri", "credentials": "MSc Plant Pathology" },
   "updatedAt": "2026-10-18"
 }
