@@ -9,7 +9,7 @@ import Container from "../Container";
 export default function DiseaseStickyNav() {
   const translate = useTranslations("StickyNav");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const arrowRef = useRef(null);
+
   return (
     <nav
       aria-label={translate("heading")}
@@ -30,7 +30,6 @@ export default function DiseaseStickyNav() {
         {/* Mobile stickyNav */}
 
         <button
-          ref={arrowRef}
           type="button"
           className="flex h-10 w-10 items-center justify-center md:hidden"
           onClick={() => setIsMenuOpen((open) => !open)}
