@@ -43,9 +43,12 @@ export default function Header() {
   }, [isMenuOpen]);
 
   return (
-    <header className="sticky top-0 z-20 border-b border-line bg-paper ">
+    <header className="sticky top-0 z-20 border-b border-line bg-paper">
       <Container>
-        <div className="flex h-18 items-center justify-between md:h-20.5">
+        <div
+          className="flex h-18 items-center justify-between md:h-20.5 "
+          dir="ltr"
+        >
           {/* Brand */}
           <Link
             href="/"
@@ -131,7 +134,7 @@ export default function Header() {
       {/* Mobile navigation */}
       <div
         id="mobile-nav"
-        inert={true}
+        inert={!isMenuOpen}
         className={`overflow-hidden border-t border-line transition-all duration-200 motion-reduce:transition-none md:hidden ${
           isMenuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
         }`}
