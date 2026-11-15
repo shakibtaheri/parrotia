@@ -31,7 +31,7 @@ export default function DiseaseStickyNav() {
 
         <button
           type="button"
-          className="flex h-10 w-10 items-center justify-center md:hidden"
+          className="flex h-10 w-10 items-center justify-center md:hidden transition-all duration-200"
           onClick={() => setIsMenuOpen((open) => !open)}
           aria-expanded={isMenuOpen}
           aria-controls="mobile-nav"
@@ -45,25 +45,23 @@ export default function DiseaseStickyNav() {
         </button>
       </div>
 
-      {isMenuOpen && (
-        <div
-          id="mobile-nav"
-          inert={!isMenuOpen}
-          className={`overflow-hidden border-t border-white/20 transition-all duration-200 md:hidden ${
-            isMenuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
-          }`}
-        >
-          <Container className="py-4">
-            <div className="flex flex-col gap-1">
-              <a href="#identification">{translate("identification")}</a>
-              <a href="#diseaseCycle">{translate("diseaseCycle")}</a>
-              <a href="#management">{translate("management")}</a>
-              <a href="#relatedDisease">{translate("relatedDisease")}</a>
-              <a href="#Source">{translate("Source")}</a>
-            </div>
-          </Container>
-        </div>
-      )}
+      <div
+        id="mobile-nav"
+        inert={!isMenuOpen}
+        className={`overflow-hidden border-t border-white/20 transition-all duration-200 md:hidden ${
+          isMenuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+        }`}
+      >
+        <Container className="py-4">
+          <div className="flex flex-col gap-1">
+            <a href="#identification">{translate("identification")}</a>
+            <a href="#diseaseCycle">{translate("diseaseCycle")}</a>
+            <a href="#management">{translate("management")}</a>
+            <a href="#relatedDisease">{translate("relatedDisease")}</a>
+            <a href="#Source">{translate("Source")}</a>
+          </div>
+        </Container>
+      </div>
     </nav>
   );
 }
