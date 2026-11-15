@@ -11,17 +11,15 @@ export default function DiseaseStickyNav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const arrowRef = useRef(null);
   return (
-    <>
-      <nav
-        aria-label={translate("heading")}
-        className="sticky top-18 z-10 max-w-full bg-forest text-white grid grid-cols-2   p-4 md:px-4"
-      >
-        <div className="justify-self-center self-center md:justify-self-start">
-          <span>{translate("heading")}</span>
-        </div>
+    <nav
+      aria-label={translate("heading")}
+      className="sticky top-18 md:top-20.5 z-10  bg-forest text-white grid"
+    >
+      <div className="min-h-12 flex items-center justify-between gap-4 px-4 sm:px-10 lg:px-32">
+        <span>{translate("heading")}</span>
 
-        {/* Desktop stickyNav */}
-        <div className="hidden md:flex md:gap-4 md:justify-self-end   ">
+        {/* Desktop stickyNav links*/}
+        <div className="hidden md:flex items-center gap-6">
           <a href="#identification">{translate("identification")}</a>
           <a href="#diseaseCycle">{translate("diseaseCycle")}</a>
           <a href="#management">{translate("management")}</a>
@@ -30,33 +28,33 @@ export default function DiseaseStickyNav() {
         </div>
 
         {/* Mobile stickyNav */}
-        <div className="max-w-full justify-self-end self-center">
-          <button
-            ref={arrowRef}
-            type="button"
-            className=" h-10 w-10 items-center justify-center rounded-md text-ink hover:bg-line md:hidden"
-            onClick={() => setIsMenuOpen((open) => !open)}
-            aria-expanded={isMenuOpen}
-            aria-controls="mobile-nav"
-            aria-label={
-              isMenuOpen ? translate("closeMenu") : translate("openMenu")
-            }
-          >
-            <IconContext.Provider value={{ color: "white" }}>
-              {isMenuOpen ? <RiArrowUpSFill /> : <RiArrowDownSFill />}
-            </IconContext.Provider>
-          </button>
-        </div>
-      </nav>
+
+        <button
+          ref={arrowRef}
+          type="button"
+          className="flex h-10 w-10 items-center justify-center md:hidden"
+          onClick={() => setIsMenuOpen((open) => !open)}
+          aria-expanded={isMenuOpen}
+          aria-controls="mobile-nav"
+          aria-label={
+            isMenuOpen ? translate("closeMenu") : translate("openMenu")
+          }
+        >
+          <IconContext.Provider value={{ color: "white" }}>
+            {isMenuOpen ? <RiArrowUpSFill /> : <RiArrowDownSFill />}
+          </IconContext.Provider>
+        </button>
+      </div>
+
       {isMenuOpen && (
         <div
           id="mobile-nav"
           inert={!isMenuOpen}
-          className={`overflow-hidden border-t border-line transition-all duration-200 motion-reduce:transition-none md:hidden  ${
+          className={`overflow-hidden border-t border-white/20 transition-all duration-200 md:hidden ${
             isMenuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
           }`}
         >
-          <Container className="md:hidden py-4">
+          <Container className="py-4">
             <div className="flex flex-col gap-1">
               <a href="#identification">{translate("identification")}</a>
               <a href="#diseaseCycle">{translate("diseaseCycle")}</a>
@@ -67,6 +65,6 @@ export default function DiseaseStickyNav() {
           </Container>
         </div>
       )}
-    </>
+    </nav>
   );
 }

@@ -43,7 +43,7 @@ export default function Header() {
   }, [isMenuOpen]);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-line bg-paper ">
+    <header className="sticky top-0 z-20 border-b border-line bg-paper ">
       <Container>
         <div className="flex h-18 items-center justify-between md:h-20.5">
           {/* Brand */}
