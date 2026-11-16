@@ -3,6 +3,7 @@ import { getTranslations } from "next-intl/server";
 
 import Container from "@/components/Container";
 import { ArrowIcon, CheckIcon } from "@/components/icons";
+
 import { Link } from "@/i18n/navigation";
 import { pick } from "@/lib/localize";
 import type { Disease, Locale } from "@/lib/types";
@@ -22,7 +23,7 @@ export default async function DiseaseIdentification({
   disease,
   locale,
 }: DiseaseIdentificationProps) {
-  const [t, tDetail] = await Promise.all([
+  const [translate, tDetail] = await Promise.all([
     getTranslations("DiseaseIdentification"),
     getTranslations("DiseaseDetail"),
   ]);
@@ -35,20 +36,20 @@ export default async function DiseaseIdentification({
     : undefined;
   const hosts = pick(disease.hosts, locale).join(listSeparator);
   const plantParts = disease.plantParts
-    .map((part) => t(`plantParts.${part}`))
+    .map((part) => translate(`plantParts.${part}`))
     .join(listSeparator);
 
   const quickFacts = [
     {
-      label: t("pathogenType"),
+      label: translate("pathogenType"),
       value: tDetail(`pathogenType.${disease.pathogenType}`),
     },
-    { label: t("commonHosts"), value: hosts },
+    { label: translate("commonHosts"), value: hosts },
     {
-      label: t("favorableConditions"),
+      label: translate("favorableConditions"),
       value: pick(disease.favorableConditions, locale),
     },
-    { label: t("plantPartsAffected"), value: plantParts },
+    { label: translate("plantPartsAffected"), value: plantParts },
   ];
 
   return (
@@ -64,20 +65,20 @@ export default async function DiseaseIdentification({
             <header className="flex items-start justify-between gap-6 border-b border-line pb-6">
               <div className="min-w-0">
                 <p className="text-xs font-semibold uppercase tracking-widest text-forest rtl:tracking-normal">
-                  {t("eyebrow")}
+                  {translate("eyebrow")}
                 </p>
                 <h2
                   id="identification-heading"
                   className="mt-3 font-serif text-3xl font-medium tracking-tight text-ink rtl:tracking-normal sm:text-4xl md:text-5xl"
                 >
-                  {t("heading")}
+                  {translate("heading")}
                 </h2>
               </div>
               <span
                 aria-hidden="true"
                 className="shrink-0 select-none font-serif text-3xl leading-none text-line sm:text-4xl md:text-5xl"
               >
-                {t("sectionNumber")}
+                {translate("sectionNumber")}
               </span>
             </header>
 
@@ -97,7 +98,7 @@ export default async function DiseaseIdentification({
                 id="diagnostic-note-heading"
                 className="text-xs font-semibold uppercase tracking-widest text-forest rtl:tracking-normal"
               >
-                {t("diagnosticNote")}
+                {translate("diagnosticNote")}
               </h3>
               <p className="mt-3 text-sm leading-relaxed text-ink md:text-base">
                 {pick(identification.diagnosticNote, locale)}
@@ -136,7 +137,7 @@ export default async function DiseaseIdentification({
 
               <div>
                 <h3 className="font-serif text-2xl font-medium tracking-tight text-ink rtl:tracking-normal">
-                  {t("keySigns")}
+                  {translate("keySigns")}
                 </h3>
                 <ul className="mt-5 space-y-4" role="list">
                   {keySigns.map((sign) => (
@@ -156,12 +157,12 @@ export default async function DiseaseIdentification({
 
           {/* Sidebar */}
           <aside
-            aria-label={t("sidebarLabel")}
+            aria-label={translate("sidebarLabel")}
             className="grid gap-6 md:grid-cols-2 lg:grid-cols-1"
           >
             <div className="rounded-2xl border border-line bg-paper p-6">
               <h3 className="font-serif text-xl font-medium tracking-tight text-ink rtl:tracking-normal">
-                {t("quickFacts")}
+                {translate("quickFacts")}
               </h3>
 
               <dl className="mt-5 divide-y divide-line">
@@ -178,13 +179,13 @@ export default async function DiseaseIdentification({
 
                 <div className="py-3 last:pb-0">
                   <dt className="text-xs font-semibold uppercase tracking-wide text-muted rtl:tracking-normal">
-                    {t("severity")}
+                    {translate("severity")}
                   </dt>
                   <dd className="mt-2">
                     <span
                       className={`inline-flex rounded-full border px-2.5 py-0.5 text-xs font-medium ${severityStyles[disease.severity]}`}
                     >
-                      {t(`severityLevels.${disease.severity}`)}
+                      {translate(`severityLevels.${disease.severity}`)}
                     </span>
                   </dd>
                 </div>
@@ -193,16 +194,16 @@ export default async function DiseaseIdentification({
 
             <div className="rounded-2xl bg-forest p-6 text-white dark:bg-forest-deep">
               <h3 className="font-serif text-xl font-medium tracking-tight rtl:tracking-normal">
-                {t("symptomChecker.heading")}
+                {translate("symptomChecker.heading")}
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-white/90">
-                {t("symptomChecker.body")}
+                {translate("symptomChecker.body")}
               </p>
               <Link
                 href="/diseases"
                 className="mt-5 inline-flex items-center gap-2 rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-forest transition-colors hover:bg-white/90 dark:text-forest-deep"
               >
-                {t("symptomChecker.button")}
+                {translate("symptomChecker.button")}
                 <ArrowIcon className="size-4" aria-hidden="true" />
               </Link>
             </div>
