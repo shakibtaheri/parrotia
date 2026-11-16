@@ -2,7 +2,10 @@
   "slug": "powdery-mildew",
   "code": "PM-01",
   "status": "published",
-  "name": { "en": "Powdery Mildew", "fa": "سفیدک پودری" },
+  "name": {
+    "en": "Powdery Mildew",
+    "fa": "سفیدک پودری"
+  },
   "pathogenType": "fungus",
   "pathogenName": "Erysiphales",
   "pathogenRank": "order",
@@ -10,12 +13,25 @@
     "en": "Powdery mildew is a group of fungal diseases caused by obligate biotrophic fungi belonging to the order Erysiphales. These pathogens colonize the surfaces of susceptible plant tissues, producing characteristic white to gray fungal growth composed of mycelium and asexual spores. Infection can affect leaves, stems, buds, flowers, and, in some host–pathogen combinations, fruits, resulting in tissue distortion, premature leaf senescence, reduced plant vigor, and diminished crop quality or yield."
   },
   "severity": "moderate",
-  "hosts": { "en": ["Rose", "Squash", "Grape", "Lilac", "Phlox"] },
+  "hosts": {
+    "en": ["Rose", "Squash", "Grape", "Lilac", "Phlox"],
+    "fa": ["گل رز", "کدو", "انگور", "یاس بنفش", "فلوکس"]
+  },
   "plantParts": ["leaves", "stems", "buds", "fruit"],
-  "favorableConditions": { "en": "Warm, dry days with humid nights" },
+  "favorableConditions": {
+    "en": "Warm, dry days with humid nights",
+    "fa": "روزهای گرم و خشک همراه با شب‌های مرطوب"
+  },
   "heroImage": {
     "src": "/images/fungus/powdery_mildew/powdery_mildew.jpg",
     "alt": {
+      "en": "White powdery fungal growth covering a green squash leaf",
+      "fa": "رشد قارچی سفید و پودری روی سطح برگ سبز کدو"
+    },
+    "caption": {
+      "en": "Powdery mildew on a squash leaf.",
+      "fa": "بیماری سفیدک پودری روی برگ کدو."
+    },
       "en": "White powdery fungal growth covering a green squash leaf"
     },
     "caption": { "en": "Powdery mildew on a squash leaf." },
@@ -25,6 +41,27 @@
   },
   "identification": {
     "lead": {
+      "en": "Powdery mildew is typically recognized by the development of white to gray, superficial fungal colonies on susceptible plant tissues, particularly leaves and young shoots.",
+      "fa": "سفیدک پودری معمولاً با تشکیل کلنی‌های قارچی سطحی به رنگ سفید تا خاکستری روی بافت‌های حساس گیاه، به‌ویژه برگ‌ها و شاخه‌های جوان، قابل تشخیص است."
+    },
+    "body": {
+      "en": "The fungal colonies consist of surface-growing mycelium and chains of asexual spores (conidia), which give infected tissues their characteristic powdery appearance. Depending on the fungal species and host plant, colonies may develop on either or both leaf surfaces. As infection progresses, affected leaves may exhibit chlorosis, curling, deformation, premature senescence, and abscission. Young shoots, buds, flowers, and fruits may also become infected.",
+      "fa": "کلنی‌های قارچی از میسلیوم رشدکننده روی سطح گیاه و زنجیره‌هایی از اسپورهای غیرجنسی (کنیدی) تشکیل شده‌اند که ظاهر پودری مشخصی به بافت‌های آلوده می‌دهند. بسته به گونه قارچ و گیاه میزبان، کلنی‌ها ممکن است روی یک یا هر دو سطح برگ تشکیل شوند. با پیشرفت آلودگی، برگ‌های مبتلا ممکن است علائم کلروز، پیچیدگی، تغییر شکل، پیری زودرس و ریزش را نشان دهند. شاخه‌های جوان، جوانه‌ها، گل‌ها و میوه‌ها نیز ممکن است آلوده شوند."
+    },
+    "diagnosticNote": {
+      "en": "Powdery mildew fungi are obligate biotrophs that obtain nutrients from living host cells through specialized feeding structures called haustoria. Unlike many other fungal pathogens, their conidia generally do not require free water on plant surfaces for germination and infection.",
+      "fa": "قارچ‌های عامل سفیدک پودری زیست‌پرورهای اجباری هستند که مواد غذایی مورد نیاز خود را از سلول‌های زنده میزبان و به کمک ساختارهای تغذیه‌ای تخصصی به نام هوستوریوم (مکنده) دریافت می‌کنند. برخلاف بسیاری از بیمارگرهای قارچی دیگر، کنیدی‌های این قارچ‌ها معمولاً برای جوانه‌زنی و ایجاد آلودگی به وجود آب آزاد روی سطح گیاه نیاز ندارند."
+    },
+    "image": {
+      "src": "/images/fungus/powdery_mildew/powdery-mildew-guid.jpg",
+      "alt": {
+        "en": "White spotting on a green leaf",
+        "fa": "لکه‌های سفید روی سطح یک برگ سبز"
+      },
+      "caption": {
+        "en": "Early colonies appear as separate white patches.",
+        "fa": "در مراحل اولیه، کلنی‌های قارچی به‌صورت لکه‌های سفید و مجزا ظاهر می‌شوند."
+      },
       "en": "Powdery mildew is typically recognized by the development of white to gray, superficial fungal colonies on susceptible plant tissues, particularly leaves and young shoots."
     },
     "body": {
@@ -47,11 +84,59 @@
         "Distorted or curled young leaves",
         "Premature yellowing and leaf drop",
         "Reduced flowering and fruit quality"
+      ],
+      "fa": [
+        "وجود پوشش پودری سفید یا خاکستری روی سطح برگ‌ها",
+        "پیچیدگی یا تغییر شکل برگ‌های جوان",
+        "زرد شدن زودرس و ریزش برگ‌ها",
+        "کاهش گلدهی و افت کیفیت میوه"
       ]
     }
   },
   "cycle": {
     "lead": {
+      "en": "Powdery mildew fungi survive between growing seasons through different structures, depending on the pathogen species and host plant. Disease development involves spore production, airborne dispersal, host infection, and repeated cycles of secondary sporulation.",
+      "fa": "قارچ‌های عامل سفیدک پودری بسته به گونه بیمارگر و گیاه میزبان، با استفاده از ساختارهای بقایی مختلف فاصله بین فصل‌های رشد را سپری می‌کنند. چرخه توسعه بیماری شامل تولید اسپور، انتشار از طریق هوا، آلودگی میزبان و تکرار چرخه‌های اسپورزایی ثانویه است."
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Survival",
+          "fa": "بقا"
+        },
+        "text": {
+          "en": "Mycelium in dormant buds or sexual resting structures (chasmothecia), depending on the species.",
+          "fa": "بقای میسلیوم در جوانه‌های خفته یا از طریق ساختارهای جنسی مقاوم به نام کاسموتسیوم (Chasmothecia)، بسته به گونه قارچ."
+        }
+      },
+      {
+        "title": {
+          "en": "Primary infection",
+          "fa": "آلودگی اولیه"
+        },
+        "text": {
+          "en": "Ascospores or conidia reach susceptible plant tissues and initiate infection.",
+          "fa": "آسکوسپورها یا کنیدی‌ها به بافت‌های حساس گیاه رسیده و فرایند آلودگی را آغاز می‌کنند."
+        }
+      },
+      {
+        "title": {
+          "en": "Colonization",
+          "fa": "کلونیزاسیون"
+        },
+        "text": {
+          "en": "Mycelium develops on the plant surface and forms haustoria within epidermal cells.",
+          "fa": "میسلیوم روی سطح گیاه توسعه یافته و درون سلول‌های اپیدرمی ساختارهای تغذیه‌ای به نام هوستوریوم تشکیل می‌دهد."
+        }
+      },
+      {
+        "title": {
+          "en": "Secondary spread",
+          "fa": "انتشار ثانویه"
+        },
+        "text": {
+          "en": "Conidia are produced in large numbers and dispersed by air to susceptible tissues.",
+          "fa": "تعداد زیادی کنیدی تولید شده و از طریق جریان هوا به بافت‌های حساس گیاه منتقل می‌شوند."
       "en": "Powdery mildew fungi survive between growing seasons through different structures, depending on the pathogen species and host plant. Disease development involves spore production, airborne dispersal, host infection, and repeated cycles of secondary sporulation."
     },
     "steps": [
@@ -81,16 +166,20 @@
       }
     ],
     "body": {
+      "en": "Repeated production and dispersal of conidia enable multiple infection cycles during the growing season. Moderate temperatures, high relative humidity, and shaded conditions generally favor disease development, although environmental requirements vary among powdery mildew species.",
+      "fa": "تولید و انتشار مکرر کنیدی‌ها امکان وقوع چندین چرخه آلودگی را در طول فصل رشد فراهم می‌کند. دماهای معتدل، رطوبت نسبی بالا و شرایط سایه معمولاً به توسعه بیماری کمک می‌کنند؛ هرچند نیازهای محیطی در گونه‌های مختلف قارچ‌های عامل سفیدک پودری متفاوت است."
       "en": "Repeated production and dispersal of conidia enable multiple infection cycles during the growing season. Moderate temperatures, high relative humidity, and shaded conditions generally favor disease development, although environmental requirements vary among powdery mildew species."
     }
   },
   "management": {
     "lead": {
-      "en": "Combine prevention, careful monitoring, and targeted treatment. Begin with cultural controls and intervene early."
+      "en": "Combine prevention, careful monitoring, and targeted treatment. Begin with cultural controls and intervene early.",
+      "fa": "پیشگیری، پایش دقیق و استفاده هدفمند از روش‌های کنترل را با یکدیگر ترکیب کنید. مدیریت را با روش‌های زراعی آغاز کرده و در مراحل اولیه بیماری اقدام کنید."
     },
     "cultural": {
       "intro": {
-        "en": "Start here. Good growing conditions reduce disease pressure and are the foundation of effective management."
+        "en": "Start here. Good growing conditions reduce disease pressure and are the foundation of effective management.",
+        "fa": "از این اقدامات شروع کنید. فراهم کردن شرایط مناسب رشد، فشار بیماری را کاهش داده و پایه و اساس مدیریت مؤثر آن است."
       },
       "items": {
         "en": [
@@ -98,37 +187,59 @@
           "Place susceptible plants in adequate sun; avoid excessive shade.",
           "Remove heavily infected leaves and dispose of them away from the garden.",
           "Avoid excess nitrogen, which promotes soft, susceptible growth."
+        ],
+        "fa": [
+          "برای بهبود جریان هوا، فاصله مناسب بین گیاهان را رعایت کرده و بخش‌های متراکم داخل تاج گیاه را هرس کنید.",
+          "گیاهان حساس را در مکان‌هایی با نور کافی قرار دهید و از ایجاد سایه بیش از حد خودداری کنید.",
+          "برگ‌های به‌شدت آلوده را حذف کرده و دور از محیط باغ یا مزرعه دفع کنید.",
+          "از مصرف بیش از حد کودهای نیتروژنه خودداری کنید؛ زیرا موجب تولید بافت‌های نرم و حساس به بیماری می‌شود."
         ]
       }
     },
     "biological": {
       "intro": {
-        "en": "Biological products can suppress early infections, but perform best when applied preventively and consistently."
+        "en": "Biological products can suppress early infections, but perform best when applied preventively and consistently.",
+        "fa": "ترکیبات زیستی می‌توانند آلودگی‌های اولیه را محدود کنند، اما زمانی بهترین عملکرد را دارند که به‌صورت پیشگیرانه و منظم استفاده شوند."
       },
       "items": {
         "en": [
           "Products containing Bacillus subtilis or Bacillus amyloliquefaciens may help protect new growth.",
           "Apply before symptoms become widespread and repeat according to the product label.",
           "Do not combine living microbial products with incompatible fungicides."
+        ],
+        "fa": [
+          "فرآورده‌های حاوی Bacillus subtilis یا Bacillus amyloliquefaciens می‌توانند به محافظت از بافت‌های جدید گیاه کمک کنند.",
+          "پیش از گسترش علائم بیماری اقدام به مصرف کنید و تکرار کاربرد را مطابق دستورالعمل برچسب محصول انجام دهید.",
+          "فرآورده‌های حاوی میکروارگانیسم‌های زنده را با قارچ‌کش‌های ناسازگار مخلوط نکنید."
         ]
       }
     },
     "chemical": {
       "intro": {
-        "en": "Fungicides protect healthy tissue; they rarely restore leaves that are already heavily colonized."
+        "en": "Fungicides protect healthy tissue; they rarely restore leaves that are already heavily colonized.",
+        "fa": "قارچ‌کش‌ها از بافت‌های سالم گیاه محافظت می‌کنند؛ اما به‌ندرت می‌توانند برگ‌هایی را که به‌شدت توسط قارچ کلونیزه شده‌اند، به حالت طبیعی بازگردانند."
       },
       "items": {
         "en": [
           "Horticultural oils, sulfur, and potassium bicarbonate are common low-impact options.",
           "Rotate active ingredients by FRAC group to reduce resistance risk.",
           "Always follow the label, observe temperature restrictions, and confirm the crop is listed."
+        ],
+        "fa": [
+          "روغن‌های باغبانی، گوگرد و بی‌کربنات پتاسیم از گزینه‌های رایج با اثرات جانبی نسبتاً کمتر هستند.",
+          "برای کاهش خطر ایجاد مقاومت قارچی، مواد مؤثره را بر اساس گروه‌های FRAC به‌صورت تناوبی مصرف کنید.",
+          "همیشه دستورالعمل برچسب محصول را رعایت کنید، محدودیت‌های دمایی مصرف را در نظر بگیرید و از ثبت محصول برای گیاه مورد نظر اطمینان حاصل کنید."
         ]
       }
     },
     "warning": {
-      "title": { "en": "Use pesticides responsibly" },
+      "title": {
+        "en": "Use pesticides responsibly",
+        "fa": "مصرف مسئولانه آفت‌کش‌ها"
+      },
       "text": {
-        "en": "The label is the law. Confirm that both the plant and disease are listed, and never apply oil or sulfur to heat-stressed plants."
+        "en": "The label is the law. Confirm that both the plant and disease are listed, and never apply oil or sulfur to heat-stressed plants.",
+        "fa": "برچسب آفت‌کش ملاک قانونی مصرف آن است. اطمینان حاصل کنید که هم گیاه میزبان و هم بیماری مورد نظر در برچسب محصول ذکر شده باشند. هرگز روغن‌های باغبانی یا گوگرد را روی گیاهان تحت تنش گرمایی استفاده نکنید."
       }
     }
   },
@@ -166,6 +277,10 @@
     "identification": ["agrios-2005", "uc-ipm-powdery"],
     "cycle": ["agrios-2005", "aps-powdery"],
     "management": ["uc-ipm-powdery"]
+  },
+  "author": {
+    "name": "Shakib Taheri",
+    "credentials": "MSc Plant Pathology"
   },
   "author": { "name": "Shakib Taheri", "credentials": "MSc Plant Pathology" },
   "updatedAt": "2026-10-18"
