@@ -10,7 +10,8 @@
   "pathogenName": "Erysiphales",
   "pathogenRank": "order",
   "summary": {
-    "en": "Powdery mildew is a group of fungal diseases caused by obligate biotrophic fungi belonging to the order Erysiphales. These pathogens colonize the surfaces of susceptible plant tissues, producing characteristic white to gray fungal growth composed of mycelium and asexual spores. Infection can affect leaves, stems, buds, flowers, and, in some host–pathogen combinations, fruits, resulting in tissue distortion, premature leaf senescence, reduced plant vigor, and diminished crop quality or yield."
+    "en": "Powdery mildew is a group of fungal diseases caused by obligate biotrophic fungi belonging to the order Erysiphales. These pathogens colonize the surfaces of susceptible plant tissues, producing characteristic white to gray fungal growth composed of mycelium and asexual spores. Infection can affect leaves, stems, buds, flowers, and, in some host–pathogen combinations, fruits, resulting in tissue distortion, premature leaf senescence, reduced plant vigor, and diminished crop quality or yield.",
+    "fa": "سفیدک پودری گروهی از بیماری‌های قارچی است که توسط قارچ‌های زیست‌پرور اجباری متعلق به راسته Erysiphales ایجاد می‌شود. این عوامل بیماری‌زا سطح بافت‌های حساس گیاه را کلونیزه کرده و رشد قارچی مشخصی به رنگ سفید تا خاکستری ایجاد می‌کنند که از میسلیوم و اسپورهای غیرجنسی تشکیل شده است. آلودگی می‌تواند برگ‌ها، ساقه‌ها، جوانه‌ها، گل‌ها و در برخی ترکیب‌های میزبان و بیمارگر، میوه‌ها را درگیر کند و موجب تغییر شکل بافت‌ها، پیری زودرس برگ‌ها، کاهش شادابی گیاه و افت کیفیت یا عملکرد محصول شود."
   },
   "severity": "moderate",
   "hosts": {
@@ -32,9 +33,6 @@
       "en": "Powdery mildew on a squash leaf.",
       "fa": "بیماری سفیدک پودری روی برگ کدو."
     },
-      "en": "White powdery fungal growth covering a green squash leaf"
-    },
-    "caption": { "en": "Powdery mildew on a squash leaf." },
     "author": "Dmitry Brant",
     "license": "CC BY-SA 4.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:powdery_mildew_9.jpg"
@@ -62,18 +60,6 @@
         "en": "Early colonies appear as separate white patches.",
         "fa": "در مراحل اولیه، کلنی‌های قارچی به‌صورت لکه‌های سفید و مجزا ظاهر می‌شوند."
       },
-      "en": "Powdery mildew is typically recognized by the development of white to gray, superficial fungal colonies on susceptible plant tissues, particularly leaves and young shoots."
-    },
-    "body": {
-      "en": "The fungal colonies consist of surface-growing mycelium and chains of asexual spores (conidia), which give infected tissues their characteristic powdery appearance. Depending on the fungal species and host plant, colonies may develop on either or both leaf surfaces. As infection progresses, affected leaves may exhibit chlorosis, curling, deformation, premature senescence, and abscission. Young shoots, buds, flowers, and fruits may also become infected."
-    },
-    "diagnosticNote": {
-      "en": "Powdery mildew fungi are obligate biotrophs that obtain nutrients from living host cells through specialized feeding structures called haustoria. Unlike many other fungal pathogens, their conidia generally do not require free water on plant surfaces for germination and infection."
-    },
-    "image": {
-      "src": "/images/fungus/powdery_mildew/powdery-mildew-guid.jpg",
-      "alt": { "en": "White spotting on a green leaf" },
-      "caption": { "en": "Early colonies appear as separate white patches." },
       "author": "Dmitry Brant",
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:powdery_mildew_9.jpg"
@@ -137,38 +123,12 @@
         "text": {
           "en": "Conidia are produced in large numbers and dispersed by air to susceptible tissues.",
           "fa": "تعداد زیادی کنیدی تولید شده و از طریق جریان هوا به بافت‌های حساس گیاه منتقل می‌شوند."
-      "en": "Powdery mildew fungi survive between growing seasons through different structures, depending on the pathogen species and host plant. Disease development involves spore production, airborne dispersal, host infection, and repeated cycles of secondary sporulation."
-    },
-    "steps": [
-      {
-        "title": { "en": "Survival" },
-        "text": {
-          "en": "Mycelium in dormant buds or sexual resting structures (chasmothecia), depending on the species."
-        }
-      },
-      {
-        "title": { "en": "Primary infection" },
-        "text": {
-          "en": "Ascospores or conidia reach susceptible plant tissues and initiate infection."
-        }
-      },
-      {
-        "title": { "en": "Colonization" },
-        "text": {
-          "en": "Mycelium develops on the plant surface and forms haustoria within epidermal cells."
-        }
-      },
-      {
-        "title": { "en": "Secondary spread" },
-        "text": {
-          "en": "Conidia are produced in large numbers and dispersed by air to susceptible tissues."
         }
       }
     ],
     "body": {
       "en": "Repeated production and dispersal of conidia enable multiple infection cycles during the growing season. Moderate temperatures, high relative humidity, and shaded conditions generally favor disease development, although environmental requirements vary among powdery mildew species.",
       "fa": "تولید و انتشار مکرر کنیدی‌ها امکان وقوع چندین چرخه آلودگی را در طول فصل رشد فراهم می‌کند. دماهای معتدل، رطوبت نسبی بالا و شرایط سایه معمولاً به توسعه بیماری کمک می‌کنند؛ هرچند نیازهای محیطی در گونه‌های مختلف قارچ‌های عامل سفیدک پودری متفاوت است."
-      "en": "Repeated production and dispersal of conidia enable multiple infection cycles during the growing season. Moderate temperatures, high relative humidity, and shaded conditions generally favor disease development, although environmental requirements vary among powdery mildew species."
     }
   },
   "management": {
@@ -282,6 +242,5 @@
     "name": "Shakib Taheri",
     "credentials": "MSc Plant Pathology"
   },
-  "author": { "name": "Shakib Taheri", "credentials": "MSc Plant Pathology" },
   "updatedAt": "2026-10-18"
 }
