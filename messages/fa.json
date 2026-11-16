@@ -46,5 +46,66 @@
     "title": "صفحه یافت نشد",
     "description": "متأسفانه، صفحه مورد نظر شما یافت نشد.",
     "home": "بازگشت به خانه"
+  },
+  "DiseaseDetail": {
+    "breadcrumbLabel": "مسیر صفحه",
+    "home": "خانه",
+    "diseases": "بیماری‌ها",
+    "pathogenType": {
+      "fungus": "بیماری قارچی",
+      "oomycete": "بیماری اوومیستی",
+      "bacterium": "بیماری باکتریایی",
+      "virus": "بیماری ویروسی",
+      "nematode": "بیماری نماتدی",
+      "insect": "آفت حشره‌ای",
+      "mite": "آفت کنه‌ای",
+      "abiotic": "اختلال غیرزیستی"
+    },
+    "causedBy": "عامل بیماری: <em>{name}</em>",
+    "writtenBy": "نوشته‌شده توسط {name}، {credentials}",
+    "updated": "آخرین به‌روزرسانی: {date}",
+    "photoCredit": "عکس: {author} ({license})"
+  },
+  "DiseaseIdentification": {
+    "heading": "تشخیص",
+    "eyebrow": "شناسایی علائم",
+    "sectionNumber": "۰۱",
+    "keySigns": "نشانه‌های کلیدی",
+    "diagnosticNote": "نکته تشخیصی",
+    "quickFacts": "اطلاعات سریع",
+    "pathogenType": "نوع عامل بیماری",
+    "commonHosts": "میزبان‌های رایج",
+    "favorableConditions": "شرایط مساعد",
+    "plantPartsAffected": "اندام‌های آسیب‌دیده",
+    "severity": "شدت",
+    "plantParts": {
+      "leaves": "برگ‌ها",
+      "stems": "ساقه‌ها",
+      "buds": "جوانه‌ها",
+      "flowers": "گل‌ها",
+      "fruit": "میوه",
+      "roots": "ریشه‌ها"
+    },
+    "severityLevels": {
+      "low": "کم",
+      "moderate": "متوسط",
+      "high": "شدید"
+    },
+    "symptomChecker": {
+      "heading": "بررسی علائم",
+      "body": "مطمئن نیستید چه می‌بینید؟ علائم را مقایسه کنید تا احتمال‌ها را محدود کنید.",
+      "button": "مقایسه علائم"
+    },
+    "sidebarLabel": "اطلاعات سریع بیماری و بررسی علائم"
+  },
+  "StickyNav": {
+    "heading": "در این صفحه",
+    "identification": "تشخیص",
+    "diseaseCycle": "سیکل زندگی بیماری",
+    "management": "کنترل",
+    "relatedDisease": "بیماری های مرتبط",
+    "Source": "منابع",
+    "openMenu": "باز کردن منو",
+    "closeMenu": "بستن منو"
   }
 }

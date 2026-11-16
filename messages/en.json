@@ -46,5 +46,66 @@
     "title": "Page not found",
     "description": "Sorry, we couldn't find the page you're looking for.",
     "home": "Go home"
+  },
+  "DiseaseDetail": {
+    "breadcrumbLabel": "Breadcrumb",
+    "home": "Home",
+    "diseases": "Diseases",
+    "pathogenType": {
+      "fungus": "Fungal disease",
+      "oomycete": "Oomycete disease",
+      "bacterium": "Bacterial disease",
+      "virus": "Viral disease",
+      "nematode": "Nematode disease",
+      "insect": "Insect pest",
+      "mite": "Mite pest",
+      "abiotic": "Abiotic disorder"
+    },
+    "causedBy": "Caused by <em>{name}</em>",
+    "writtenBy": "Written by {name}, {credentials}",
+    "updated": "Last updated {date}",
+    "photoCredit": "Photo: {author} ({license})"
+  },
+  "DiseaseIdentification": {
+    "heading": "Identification",
+    "eyebrow": "Recognizing symptoms",
+    "sectionNumber": "01",
+    "keySigns": "Key signs",
+    "diagnosticNote": "Diagnostic note",
+    "quickFacts": "Quick facts",
+    "pathogenType": "Pathogen type",
+    "commonHosts": "Common hosts",
+    "favorableConditions": "Favorable conditions",
+    "plantPartsAffected": "Plant parts affected",
+    "severity": "Severity",
+    "plantParts": {
+      "leaves": "Leaves",
+      "stems": "Stems",
+      "buds": "Buds",
+      "flowers": "Flowers",
+      "fruit": "Fruit",
+      "roots": "Roots"
+    },
+    "severityLevels": {
+      "low": "Low",
+      "moderate": "Moderate",
+      "high": "High"
+    },
+    "symptomChecker": {
+      "heading": "Symptom checker",
+      "body": "Not sure what you are seeing? Compare symptoms to narrow down the possibilities.",
+      "button": "Compare symptoms"
+    },
+    "sidebarLabel": "Quick facts and symptom checker"
+  },
+  "StickyNav": {
+    "heading": "On this page",
+    "identification": "Identification",
+    "diseaseCycle": " Disease cycle",
+    "management": "Management",
+    "relatedDisease": "Related disease",
+    "Source": "Source",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   }
 }

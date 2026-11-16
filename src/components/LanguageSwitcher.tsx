@@ -1,6 +1,5 @@
 "use client";
 
-import { Fragment } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
@@ -18,17 +17,16 @@ export default function LanguageSwitcher({
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
-  const t = useTranslations("Header");
-  // console.log("locale:", locale, "router:", router, "routing:", routing);
+  const translate = useTranslations("Header");
+
   return (
     <div
       className="flex items-center gap-2"
       role="group"
-      aria-label={t("language")}
+      aria-label={translate("language")}
     >
       {routing.locales.map((lang, index) => (
-        <Fragment key={lang}>
-          {index > 0 && ""}
+        <div key={index}>
           <button
             type="button"
             lang={lang}
@@ -42,7 +40,7 @@ export default function LanguageSwitcher({
           >
             {labelsByStyle[labels][lang]}
           </button>
-        </Fragment>
+        </div>
       ))}
     </div>
   );
