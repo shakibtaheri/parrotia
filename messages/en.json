@@ -66,6 +66,38 @@
     "updated": "Last updated {date}",
     "photoCredit": "Photo: {author} ({license})"
   },
+  "DiseaseIdentification": {
+    "heading": "Identification",
+    "eyebrow": "Recognizing symptoms",
+    "sectionNumber": "01",
+    "keySigns": "Key signs",
+    "diagnosticNote": "Diagnostic note",
+    "quickFacts": "Quick facts",
+    "pathogenType": "Pathogen type",
+    "commonHosts": "Common hosts",
+    "favorableConditions": "Favorable conditions",
+    "plantPartsAffected": "Plant parts affected",
+    "severity": "Severity",
+    "plantParts": {
+      "leaves": "Leaves",
+      "stems": "Stems",
+      "buds": "Buds",
+      "flowers": "Flowers",
+      "fruit": "Fruit",
+      "roots": "Roots"
+    },
+    "severityLevels": {
+      "low": "Low",
+      "moderate": "Moderate",
+      "high": "High"
+    },
+    "symptomChecker": {
+      "heading": "Symptom checker",
+      "body": "Not sure what you are seeing? Compare symptoms to narrow down the possibilities.",
+      "button": "Compare symptoms"
+    },
+    "sidebarLabel": "Quick facts and symptom checker"
+  },
   "StickyNav": {
     "heading": "On this page",
     "identification": "Identification",

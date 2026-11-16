@@ -14,7 +14,7 @@
   "plantParts": ["leaves", "stems", "buds", "fruit"],
   "favorableConditions": { "en": "Warm, dry days with humid nights" },
   "heroImage": {
-    "src": "/images/fungus/powdery_mildew.jpg",
+    "src": "/images/fungus/powdery_mildew/powdery_mildew.jpg",
     "alt": {
       "en": "White powdery fungal growth covering a green squash leaf"
     },
@@ -34,7 +34,7 @@
       "en": "Powdery mildew fungi are obligate biotrophs that obtain nutrients from living host cells through specialized feeding structures called haustoria. Unlike many other fungal pathogens, their conidia generally do not require free water on plant surfaces for germination and infection."
     },
     "image": {
-      "src": "/images/fungus/powdery_mildew.jpg",
+      "src": "/images/fungus/powdery_mildew/powdery-mildew-guid.jpg",
       "alt": { "en": "White spotting on a green leaf" },
       "caption": { "en": "Early colonies appear as separate white patches." },
       "author": "Dmitry Brant",

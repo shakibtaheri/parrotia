@@ -10,6 +10,7 @@ import DiseaseStickyNav from "@/components/disease/DiseaseStickyNav";
 import { routing } from "@/i18n/routing";
 import { getAllDiseases, getDiseaseBySlug } from "@/lib/diseases";
 import type { Locale } from "@/lib/types";
+import DiseaseIdentification from "@/components/disease/DiseaseIdentification";
 
 export function generateStaticParams() {
   return routing.locales.flatMap((locale) =>
@@ -41,8 +42,10 @@ export default async function DiseaseDetailPage({
           />
         </div>
       </Container>
-
       <DiseaseStickyNav />
+      <div>
+        <DiseaseIdentification disease={disease} locale={locale} />
+      </div>
     </>
   );
 }
