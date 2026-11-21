@@ -23,7 +23,7 @@
     "explore": "Explore",
     "connect": "Connect",
     "github": "GitHub",
-    "madeWith": "Made with care for plants",
+    "madeWith": "Made with care for plants by Shakib",
     "rights": "© {year} Parrotia",
     "exploreLinks": {
       "diseases": "Diseases",
@@ -97,6 +97,11 @@
       "button": "Compare symptoms"
     },
     "sidebarLabel": "Quick facts and symptom checker"
+  },
+  "DiseaseCycle": {
+    "heading": "Disease cycle",
+    "eyebrow": "Understanding disease development",
+    "sectionNumber": "02"
   },
   "StickyNav": {
     "heading": "On this page",

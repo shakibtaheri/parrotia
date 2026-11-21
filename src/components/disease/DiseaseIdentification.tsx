@@ -14,9 +14,9 @@ type DiseaseIdentificationProps = {
 };
 
 const severityStyles: Record<Disease["severity"], string> = {
-  low: "border-line text-muted bg-forest",
-  moderate: "border-forest/30 text-forest bg-orange",
-  high: "border-crimson/30 text-crimson bg-red",
+  low: "border-line text-muted",
+  moderate: "border-forest/30 text-forest",
+  high: "border-crimson/30 text-crimson",
 };
 
 export default async function DiseaseIdentification({
@@ -106,14 +106,14 @@ export default async function DiseaseIdentification({
             </aside>
 
             {/* Image and key signs */}
-            <div className="mt-10 grid gap-8 md:grid-cols-2 md:items-start">
+            <div className="mt-10 grid gap-8 md:grid-cols-2 md:items-start ">
               <figure>
-                <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-line">
+                <div className="relative aspect-square overflow-hidden rounded-2xl bg-line">
                   <Image
                     src={identification.image.src}
                     alt={pick(identification.image.alt, locale)}
                     fill
-                    className="object-cover"
+                    className="object-fill"
                     loading="eager"
                     sizes="(min-width: 1024px) 35vw, (min-width: 768px) 45vw, 100vw"
                   />
@@ -135,7 +135,7 @@ export default async function DiseaseIdentification({
                 </figcaption>
               </figure>
 
-              <div>
+              <div className="self-center ">
                 <h3 className="font-serif text-2xl font-medium tracking-tight text-ink rtl:tracking-normal">
                   {translate("keySigns")}
                 </h3>
