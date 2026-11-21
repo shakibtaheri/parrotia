@@ -69,6 +69,7 @@ export interface Disease {
   cycle: {
     lead: Localized;
     steps: { title: Localized; text: Localized }[];
+    image?: { src: string; alt: Localized; caption: Localized };
     body: Localized;
   };
 

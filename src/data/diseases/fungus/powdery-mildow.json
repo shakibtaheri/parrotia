@@ -126,6 +126,17 @@
         }
       }
     ],
+    "image": {
+      "src": "/images/fungus/powdery_mildew/sexual-Asexual-binding.jpg",
+      "alt": {
+        "en": "illustrating the disease cycle of powdery mildew",
+        "fa": "چرخه بیماری سفیدک پودری"
+      },
+      "caption": {
+        "en": "Disease cycle ",
+        "fa": "چرخه بیماری سفیدک پودری"
+      }
+    },
     "body": {
       "en": "Repeated production and dispersal of conidia enable multiple infection cycles during the growing season. Moderate temperatures, high relative humidity, and shaded conditions generally favor disease development, although environmental requirements vary among powdery mildew species.",
       "fa": "تولید و انتشار مکرر کنیدی‌ها امکان وقوع چندین چرخه آلودگی را در طول فصل رشد فراهم می‌کند. دماهای معتدل، رطوبت نسبی بالا و شرایط سایه معمولاً به توسعه بیماری کمک می‌کنند؛ هرچند نیازهای محیطی در گونه‌های مختلف قارچ‌های عامل سفیدک پودری متفاوت است."

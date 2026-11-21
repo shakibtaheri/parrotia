@@ -15,7 +15,7 @@ export default async function DiseaseHeroImage({
 }: DiseaseHeroImageProps) {
   const t = await getTranslations("DiseaseDetail");
   const caption = image.caption ? pick(image.caption, locale) : undefined;
-  console.log(image);
+
   return (
     <figure>
       <div className="relative h-72 overflow-hidden rounded-2xl bg-line md:h-[455px]">

@@ -98,6 +98,11 @@
     },
     "sidebarLabel": "اطلاعات سریع بیماری و بررسی علائم"
   },
+  "DiseaseCycle": {
+    "heading": "چرخه بیماری",
+    "eyebrow": "درک چرخه چرخه زندگی بیماری",
+    "sectionNumber": "۰۲ "
+  },
   "StickyNav": {
     "heading": "در این صفحه",
     "identification": "تشخیص",
