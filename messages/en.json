@@ -103,6 +103,11 @@
     "eyebrow": "Understanding disease development",
     "sectionNumber": "02"
   },
+  "Management": {
+    "heading": "Disease management",
+    "eyebrow": "An integrated aprroach",
+    "sectionNumber": "03"
+  },
   "StickyNav": {
     "heading": "On this page",
     "identification": "Identification",

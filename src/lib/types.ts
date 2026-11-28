@@ -33,6 +33,7 @@ export interface ImageAsset {
 }
 
 export interface ManagementMethod {
+  title: Localized;
   intro: Localized;
   items: Localized<string[]>;
 }

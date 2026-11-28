@@ -31,7 +31,7 @@ export default async function DiseaseCycle({
               </p>
               <h2
                 id="cycle-heading"
-                className="mt-3 font-serif text-3xl font-medium tracking-tight text-ink rtl:tracking-normal sm:text-4xl md:text-5xl"
+                className=" mt-3 font-serif text-3xl font-medium tracking-tight text-ink rtl:tracking-normal sm:text-4xl md:text-5xl"
               >
                 {translate("heading")}
               </h2>
@@ -44,7 +44,7 @@ export default async function DiseaseCycle({
             </span>
           </header>
 
-          <p className="mt-8 font-serif text-xl leading-relaxed text-muted md:text-2xl">
+          <p className="mt-8 max-w-prose font-serif text-xl leading-relaxed text-ink md:text-2xl">
             {pick(cycle.lead, locale)}
           </p>
 
@@ -105,6 +105,9 @@ export default async function DiseaseCycle({
                   <p className="mt-4 font-serif text-lg font-semibold tracking-tight text-ink rtl:tracking-normal ">
                     {pick(cycle.image.caption, locale)}
                   </p>
+                  <span className="mt-1.5 text-xs leading-relaxed text-muted">
+                    {pick(cycle.image.text, locale)}
+                  </span>
                 </li>
               )}
             </ol>

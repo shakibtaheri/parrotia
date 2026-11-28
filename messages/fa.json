@@ -103,6 +103,11 @@
     "eyebrow": "درک چرخه چرخه زندگی بیماری",
     "sectionNumber": "۰۲ "
   },
+  "Management": {
+    "heading": "مدیریت بیماری",
+    "eyebrow": "رویکرد یکپارچه",
+    "sectionNumber": "۰۳"
+  },
   "StickyNav": {
     "heading": "در این صفحه",
     "identification": "تشخیص",
