@@ -135,6 +135,10 @@
       "caption": {
         "en": "Disease cycle ",
         "fa": "چرخه بیماری سفیدک پودری"
+      },
+      "text": {
+        "en": "to see imgage click on button",
+        "fa": "تعداد زیادی کنیدی تولید شده و از طریق جریان هوا به بافت‌های حساس گیاه منتقل می‌شوند."
       }
     },
     "body": {
@@ -148,6 +152,7 @@
       "fa": "پیشگیری، پایش دقیق و استفاده هدفمند از روش‌های کنترل را با یکدیگر ترکیب کنید. مدیریت را با روش‌های زراعی آغاز کرده و در مراحل اولیه بیماری اقدام کنید."
     },
     "cultural": {
+      "title": { "en": "cultural", "fa": "زراعی" },
       "intro": {
         "en": "Start here. Good growing conditions reduce disease pressure and are the foundation of effective management.",
         "fa": "از این اقدامات شروع کنید. فراهم کردن شرایط مناسب رشد، فشار بیماری را کاهش داده و پایه و اساس مدیریت مؤثر آن است."
@@ -168,6 +173,7 @@
       }
     },
     "biological": {
+      "title": { "en": "biological", "fa": "طبیعی" },
       "intro": {
         "en": "Biological products can suppress early infections, but perform best when applied preventively and consistently.",
         "fa": "ترکیبات زیستی می‌توانند آلودگی‌های اولیه را محدود کنند، اما زمانی بهترین عملکرد را دارند که به‌صورت پیشگیرانه و منظم استفاده شوند."
@@ -186,6 +192,7 @@
       }
     },
     "chemical": {
+      "title": { "en": "chemical", "fa": "شیمیایی" },
       "intro": {
         "en": "Fungicides protect healthy tissue; they rarely restore leaves that are already heavily colonized.",
         "fa": "قارچ‌کش‌ها از بافت‌های سالم گیاه محافظت می‌کنند؛ اما به‌ندرت می‌توانند برگ‌هایی را که به‌شدت توسط قارچ کلونیزه شده‌اند، به حالت طبیعی بازگردانند."
