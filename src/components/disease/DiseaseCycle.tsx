@@ -15,7 +15,7 @@ export default async function DiseaseCycle({
 }: DiseaseCycleProps) {
   const translate = await getTranslations("DiseaseCycle");
   const { cycle } = disease;
-
+  console.log(cycle.steps.length);
   return (
     <section
       id="diseaseCycle"
@@ -82,7 +82,7 @@ export default async function DiseaseCycle({
                    rounded-full border border-forest/30 bg-paper
                    text-xs font-medium text-forest cursor-pointer"
                     >
-                      {String(cycle.steps.length - 1).padStart(2, "0")}
+                      {String(cycle.steps.length + 1).padStart(2, "0")}
                     </button>
                     <div
                       className={`hidden invisible absolute ${locale === "en" ? "lg:left-100" : "lg:-left-100"} lg:-bottom-60 
